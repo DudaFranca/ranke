@@ -1,0 +1,20 @@
+<template>
+    <header>
+      <!-- Menu -->
+      <nav>
+        <!-- Cada router-link é uma sessão do menu -->
+        <router-link to="/" class="logo">
+          <img src="@/assets/ranek.svg" alt="Ranek">
+        </router-link>
+        <router-link class="btn" to="/login">
+          Vender / Login
+        </router-link>
+      </nav>
+    </header>
+</template>
+
+<script>
+export default {
+  name: "TheHeader"
+}
+</script>
